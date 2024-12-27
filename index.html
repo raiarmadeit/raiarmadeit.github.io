@@ -10,35 +10,59 @@
 
     <title>Background Image Opacity</title>
     <style>
-      body {
-        margin: 0;
-        padding: 0;
-        position: relative;
-      }
-  
-      body::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url('Script2.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-color: rgba(0, 0, 0, 0.301);
-        opacity: 0.07; /* Adjust the opacity of the background image */
-      }
-      
-      /* Example content styling */
-      .content {
-        position: relative;
-        z-index: 1;
-        padding: 20px;
-        color: white;
-        font-family: Arial, sans-serif;
-      }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #222; /* Dark background for contrast */
+            position: relative;
+            perspective: 1200px; /* Adds depth to the scene */
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('Script2.png'); /* Your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.2; /* Make the background slightly visible */
+            transform: rotateX(10deg) rotateY(10deg); /* Slight tilt for 3D effect */
+            transform-style: preserve-3d; /* Enables 3D transformations */
+            z-index: 1; /* Place the background behind the content */
+        }
+
+        .content {
+            position: relative;
+            z-index: 2; /* Keeps the content above the background */
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
     </style>
 
     <div class="Title">
