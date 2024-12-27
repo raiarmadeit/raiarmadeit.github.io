@@ -4,9 +4,6 @@ body {
     background-color: black;
 }
 
-body {
-   background-image: url(pattern.png);
-}
 
 .Title {
     display: flex;
