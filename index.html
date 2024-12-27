@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raiar Port</title>
     <link rel="stylesheet" href="Core.css">
-</head>
-<body>
-
-    <title>Background Image Opacity</title>
     <style>
       body {
         margin: 0;
@@ -30,7 +26,22 @@
         background-color: rgba(0, 0, 0, 0.301);
         opacity: 0.07; /* Adjust the opacity of the background image */
       }
-      
+
+      /* Add gradient to Title section */
+      .Title {
+        background: linear-gradient(to right, #007BFF, #FF5733); /* Blue to Orange gradient */
+        padding: 50px;
+        text-align: center;
+        border-radius: 10px; /* Optional: Add rounded corners */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+      }
+
+      .Text_1 {
+        font-size: 3rem;
+        color: white; /* Make the text stand out against the gradient */
+        margin: 0;
+      }
+
       /* Example content styling */
       .content {
         position: relative;
@@ -40,6 +51,8 @@
         font-family: Arial, sans-serif;
       }
     </style>
+</head>
+<body>
 
     <div class="Title">
         <h1 class="Text_1">Welcome to Raiar Portfolio</h1>
@@ -57,17 +70,4 @@
         </button>
     </div>
 
-    <h1 class="Script1Button">Script 1</h1>
-    <div id="scriptImage" class="Scripts">
-        <img src="Script1.png" alt="Script1" class="Script1">
-    </div>
-
-    <h1 class="Script2Button">Script 2 </h1>
-    <div id="scriptImage" class="Scripts">
-        <img src="Script2.png" alt="script2" class="script2">
-    </div>
-
-    <script src="Core.js"></script>
-  
-</body>
-</html>
+    <h1 class="Script1Button">
