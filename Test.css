@@ -1,0 +1,7 @@
+.Test{
+ font-family: 'Courier New', Courier, monospace;    
+ font-weight: bold;
+ display: flex;
+ position: absolute;
+ text-align: center;
+}
