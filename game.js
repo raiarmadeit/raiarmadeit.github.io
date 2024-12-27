@@ -1,5 +1,6 @@
 import{jsx as _jsx}from"react/jsx-runtime";import{useEffect,useState}from"react";// Constants
-const groupId="32900359";const gameIds=["90363830187974","107400840408672","14379716011","16884631785","93270608557389","114400285065649","18900226764","18196050689","18854070920"]// Replace with your game IDs
+const groupId="32900359";
+const gameIds=["90363830187974","107400840408672","14379716011","16884631785","93270608557389","114400285065649","18900226764","18196050689","18854070920"]// Replace with your game IDs
 ;// Function to fetch group's games (place_ids)
 async function fetchGroupGames(){try{const response=await fetch(`https://srv0.palfal.com:3000/groupgames/${groupId}`);const data=await response.json();const placeIds=data.data.map(game=>{var _game_rootPlace;return(_game_rootPlace=game.rootPlace)===null||_game_rootPlace===void 0?void 0:_game_rootPlace.id;}).filter(Boolean);//console.log("Fetched place IDs:", placeIds)
 return placeIds;}catch(error){console.error("Error fetching group games:",error);return[];}}// Function to fetch universe IDs from place IDs
