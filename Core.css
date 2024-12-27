@@ -46,7 +46,7 @@ body {
 .About53{
     position: fixed;
     top: 20px;
-    right: 57%;
+    right: 46%;
     transform: translateX(-50%);
     padding: 10px 20px;
     border: none;
@@ -70,7 +70,7 @@ body {
 
 
 
-/* .Script53 {
+.Script53 {
     position: fixed;
     top: 20px;
     left: 40%;
@@ -93,35 +93,12 @@ body {
     background-color: black; 
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.7);
  }
-  */
- /* html {
+ 
+ html {
     scroll-behavior: smooth;
-} */
-
-body {
-    position: relative;
-    margin: 0;
-    height: 100vh;
-    overflow: hidden;
 }
 
-/* body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('Script2.png'), url('Script2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.1; 
-    z-index: -1;
-}
- */
-
-
-/* .Scripts {
+.Scripts {
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -147,7 +124,7 @@ body {
 
 }
 
- */
+
 
 
 * {

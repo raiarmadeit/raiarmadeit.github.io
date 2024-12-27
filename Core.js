@@ -12,3 +12,13 @@ window.addEventListener('scroll', function() {
     Title.style.opacity = opacity;
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const scrollButton = document.getElementById('scrollButton');
+    const scriptImage = document.getElementById('scriptImage');
+
+    scrollButton.addEventListener('click', function() {
+        scriptImage.scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
