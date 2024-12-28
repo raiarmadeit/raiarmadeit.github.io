@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 body {
     background-color: black;
 }
-
 
 .Title {
     display: flex;
@@ -25,6 +27,7 @@ body {
 }
 
 .Text_1:hover {
+    color: white;
     transform: scale(1.5);
 }
 
@@ -43,10 +46,11 @@ body {
     width: 100%; 
 }
 
+
 .About53{
     position: fixed;
     top: 20px;
-    right: 46%;
+    right: 51%;
     transform: translateX(-50%);
     padding: 10px 20px;
     border: none;
@@ -56,8 +60,9 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease; 
-    font-family: 'Releway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    
 }
 
 
@@ -69,8 +74,154 @@ body {
  }
 
 
+ .AboutMe {
+    display: flex;
+    justify-content: left;    
+    align-items: center;        
+    height: 100vh;              
+    text-align: center;         
+}
 
-.Script53 {
+
+
+ .AboutRaiar{
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+
+ }
+
+.Mark1{
+    color: aqua;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.Mark2{
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.VideoButton{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 31px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.VideoButton:hover{
+    transform: translateX(-50%) scale(1.1); 
+    color: white; 
+    background-color: black; 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.7);
+}
+
+
+.VideoContainer {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+}
+.Video1, .Video2, .Video3{
+    display: block; 
+    margin: 0 10px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0; 
+    transform: scale(1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, opacity 0.5s ease;
+}
+
+.Video1:hover, .Video2:hover, .Video3:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);  
+}
+
+
+
+/* video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; 
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+video:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.9);
+    transform: scale(1.05); 
+} */
+
+.AboutRaiar2 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px; 
+    font-size: 50px;
+}
+
+.VideoSection {
+    color: white; 
+    text-align: center;
+    margin-top: -px; 
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.ContactsMain{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+}
+
+.CoreContact{
+    position: fixed;
+    top: 20px;
+    left: 59%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 31px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.CoreContact:hover{
+    transform: translateX(-50%) scale(1.1); 
+    color: white; 
+    background-color: black; 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.7);
+}
+
+
+
+/* .Script53 {
     position: fixed;
     top: 20px;
     left: 40%;
@@ -93,12 +244,35 @@ body {
     background-color: black; 
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.7);
  }
- 
- html {
+  */
+ /* html {
     scroll-behavior: smooth;
+} */
+
+/* body {
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.Scripts {
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Script2.png'), url('Script2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.1; 
+    z-index: -1;
+} */
+
+
+
+/* .Scripts {
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -124,9 +298,9 @@ body {
 
 }
 
-
+ */
 
 
 * {
     cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
-}
+}  
