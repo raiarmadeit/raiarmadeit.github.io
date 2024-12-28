@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@media only screen and (device-width: 1280px),
-only screen and (max-width:1280px) {
+
+
 
 body {
     background-color: black;
@@ -303,5 +303,4 @@ body::before {
 
 * {
     cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
-}
-} 
+}  
