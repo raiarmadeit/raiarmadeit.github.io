@@ -82,10 +82,25 @@ body {
     display: flex;
     justify-content: left;    
     align-items: center;        
-    height: 100vh;              
+    height: 30vh;              
     text-align: center;         
 }
 
+.Games {
+    display: flex;
+    justify-content: center;    
+    align-items: center;        
+    height: 50vh;              
+    text-align: center;         
+}
+
+.Status {
+    display: flex;
+    justify-content: center;    
+    align-items: center;        
+    height: 5vh;              
+    text-align: center;         
+}
 
 
  .AboutRaiar{
@@ -105,7 +120,7 @@ body {
 }
 
 .Mark2{
-    color: rgb(134, 4, 4);
+    color: red;
     background-color: black;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -113,13 +128,12 @@ body {
 }
 
 .Mark3{
-    color: rgb(81, 255, 0);
+    color: rgb(21, 255, 0);
     background-color: black;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 
 }
-
 .VideoButton{
     position: fixed;
     top: 20px;
