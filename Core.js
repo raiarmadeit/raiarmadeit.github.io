@@ -43,18 +43,18 @@ const video2Observer = new IntersectionObserver((entries) => {
 video2Observer.observe(video2);
 
 
-const video3 = document.querySelector('.Video3');
-const video3Observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.opacity = 1;
-        } else {
-            entry.target.style.opacity = 0; 
-        }
-    });
-}, { threshold: 0.5 });
+// const video3 = document.querySelector('.Video3');
+// const video3Observer = new IntersectionObserver((entries) => {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//             entry.target.style.opacity = 1;
+//         } else {
+//             entry.target.style.opacity = 0; 
+//         }
+//     });
+// }, { threshold: 0.5 });
 
-video3Observer.observe(video3);
+// video3Observer.observe(video3);
 
 
 
