@@ -43,21 +43,6 @@ const video2Observer = new IntersectionObserver((entries) => {
 video2Observer.observe(video2);
 
 
-// const video3 = document.querySelector('.Video3');
-// const video3Observer = new IntersectionObserver((entries) => {
-//     entries.forEach(entry => {
-//         if (entry.isIntersecting) {
-//             entry.target.style.opacity = 1;
-//         } else {
-//             entry.target.style.opacity = 0; 
-//         }
-//     });
-// }, { threshold: 0.5 });
-
-// video3Observer.observe(video3);
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
     const Video23 = document.getElementById('Video23');
     const VideoScole = document.getElementById('VideoSection2');
@@ -75,3 +60,30 @@ document.addEventListener('DOMContentLoaded', function() {
         AboutRaiarID.scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const Test1 = document.getElementById('CoreContact');
+    const Test2 = document.getElementById('VideoSection2');
+
+    Test1.addEventListener('click', function() {
+        Test2.scrollIntoView({ behavior: 'smooth' });
+    });
+});
+
+
+
+// const video3 = document.querySelector('.Video3');
+// const video3Observer = new IntersectionObserver((entries) => {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//             entry.target.style.opacity = 1;
+//         } else {
+//             entry.target.style.opacity = 0; 
+//         }
+//     });
+// }, { threshold: 0.5 });
+
+// video3Observer.observe(video3);
+
+
+
