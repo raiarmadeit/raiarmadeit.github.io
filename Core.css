@@ -97,7 +97,7 @@ body {
  }
 
 .Mark1{
-    color: aqua;
+    color: rgba(255, 145, 0, 0.788);
     background-color: black;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -105,7 +105,7 @@ body {
 }
 
 .Mark2{
-    color: red;
+    color: rgb(134, 4, 4);
     background-color: black;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
