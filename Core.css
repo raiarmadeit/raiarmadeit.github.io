@@ -202,14 +202,14 @@ video:hover {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin-top: 50px; 
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .VideoSection {
     color: white; 
     text-align: center;
     margin-top: -px; 
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -246,6 +246,11 @@ video:hover {
 }
 
 
+.About_raiar_Css{ 
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
 
 /* .Script53 {
     position: fixed;

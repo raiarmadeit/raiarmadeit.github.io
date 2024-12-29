@@ -46,30 +46,29 @@ video2Observer.observe(video2);
 document.addEventListener('DOMContentLoaded', function() {
     const Video23 = document.getElementById('Video23');
     const VideoScole = document.getElementById('VideoSection2');
-
-    Video23.addEventListener('click', function() {
-        VideoScole.scrollIntoView({ behavior: 'smooth' });
-    });
-});
-
-document.addEventListener('DOMContentLoaded', function() {
     const scrollButton = document.getElementById('scrollButton');
     const AboutRaiarID = document.getElementById('AboutRaiarID');
+    const Test1 = document.querySelector('.CoreContact');
+    const Test2 = document.getElementById('Raiar_Cutie');
 
-    scrollButton.addEventListener('click', function() {
-        AboutRaiarID.scrollIntoView({ behavior: 'smooth' });
-    });
+    if (Video23 && VideoScole) {
+        Video23.addEventListener('click', function() {
+            VideoScole.scrollIntoView({ behavior: 'smooth' });
+        });
+    }
+
+    if (scrollButton && AboutRaiarID) {
+        scrollButton.addEventListener('click', function() {
+            AboutRaiarID.scrollIntoView({ behavior: 'smooth' });
+        });
+    }
+
+    if (Test1 && Test2) {
+        Test1.addEventListener('click', function() {
+            Test2.scrollIntoView({ behavior: 'smooth' });
+        });
+    }
 });
-
-document.addEventListener('DOMContentLoaded', function() {
-    const Test1 = document.getElementById('CoreContact');
-    const Test2 = document.getElementById('VideoSection2');
-
-    Test1.addEventListener('click', function() {
-        Test2.scrollIntoView({ behavior: 'smooth' });
-    });
-});
-
 
 
 // const video3 = document.querySelector('.Video3');
