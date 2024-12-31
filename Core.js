@@ -81,6 +81,7 @@ video2Observer.observe(video2);
             });
         });
 
+
 // const video3 = document.querySelector('.Video3');
 // const video3Observer = new IntersectionObserver((entries) => {
 //     entries.forEach(entry => {
