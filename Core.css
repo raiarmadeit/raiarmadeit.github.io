@@ -3,6 +3,9 @@
 
 body {
     background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .Title {
@@ -13,6 +16,7 @@ body {
     text-align: center;
     min-height: 100vh; 
     font-family: 'Raleway', sans-serif;
+    padding: 20px;
 }
 
 .social-icons {
@@ -144,6 +148,7 @@ body {
     align-items: center;        
     height: 30vh;              
     text-align: center;         
+    padding: 20px;
 }
 
 .Games {
@@ -217,16 +222,20 @@ body {
     display: flex;
     justify-content: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .Video1, .Video2, .Video3 {
     display: block; 
-    margin: 0 10px; 
+    margin: 10px; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     opacity: 0; 
     transform: scale(1);
     transition: transform 0.4s ease, box-shadow 0.4s ease, opacity 0.5s ease;
+    max-width: 100%;
+    height: auto;
 }
 
 .Video1:hover, .Video2:hover, .Video3:hover {
@@ -254,6 +263,7 @@ body {
     display: flex;
     justify-content: flex-start;
     justify-content: center;
+    padding: 20px;
 }
 
 .Discord{
@@ -334,5 +344,81 @@ body {
     .VideoContainer {
         flex-direction: column;
         align-items: center;
+    }
+
+    .social-icons {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .twitter-icon, .discord-icon {
+        font-size: 50px;
+        left: 0;
+    }
+
+    .VideoButton {
+        font-size: 18px;
+        padding: 6px 12px;
+        top: 8px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Text_1 {
+        font-size: 1.5rem;
+    }
+
+    .About53, .VideoButton, .CoreContact {
+        font-size: 18px;
+        padding: 6px 12px;
+        top: 8px;
+    }
+
+    .AboutRaiar {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .AboutRaiar2, .VideoSection, .About_raiar_Css {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .Video1, .Video2, .Video3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .AboutMe, .Games, .Status {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .Title {
+        padding: 15px;
+    }
+
+    .VideoContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .twitter-icon, .discord-icon {
+        font-size: 40px;
+        left: 0;
+    }
+
+    .VideoButton {
+        font-size: 16px;
+        padding: 5px 10px;
+        top: 5px;
     }
 }
