@@ -5,8 +5,6 @@ body {
     background-color: black;
 }
 
-
-
 .Title {
     display: flex;
     justify-content: center;
@@ -17,7 +15,75 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: -300px; 
+}
 
+.twitter-icon, .discord-icon {
+    font-size: 40px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.twitter-icon {
+    display: inline-block;  
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding: 0; 
+    margin: 0; 
+    line-height: 1;
+    position: relative;
+    top: 0; 
+}
+
+.twitter-icon:hover {
+    color: aqua; 
+}
+
+.twitter-icon a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block; 
+    padding: 0;
+    margin: 0; 
+}
+
+.twitter-icon:hover, .discord-icon:hover {
+    transform: scale(1.2) rotate(10deg);
+    color: #1da1f2; 
+}
+
+.discord-icon {
+    display: inline-block;  
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding: 0; 
+    margin: 0; 
+    left: -50px;
+    line-height: 1;
+    position: relative;
+    top: 0; 
+}
+
+.discord-icon a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.discord-icon i:hover {
+    color: #7289da; 
+}
+
+.discord-icon:hover {
+    color: #7289da;
+}
 
 .Text_1 {
     font-size: 3rem;
@@ -79,7 +145,6 @@ body {
     height: 30vh;              
     text-align: center;         
 }
-
 
 .Games {
     display: flex;
@@ -148,8 +213,6 @@ body {
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.7);
 }
 
-
-
 .VideoContainer {
     display: flex;
     justify-content: flex-start;
@@ -197,7 +260,6 @@ body {
     font-size: 40px;
 }
 
-
 .CoreContact {
     position: fixed;
     top: 20px;
@@ -233,7 +295,6 @@ body {
     cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
 }
 
-
 @media only screen and (max-width: 640px) {
     .Text_1 {
         font-size: 2rem;
@@ -265,7 +326,6 @@ body {
         height: auto;
         padding: 20px;
     }
-
 
     .Title {
         padding: 20px;
