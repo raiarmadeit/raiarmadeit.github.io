@@ -2,12 +2,14 @@ window.addEventListener('scroll', function() {
     const Title = document.querySelector('.Title'); 
     const About53 = document.querySelector('.About53');
     const VideoButton = document.querySelector('.VideoButton');
-    const CoreContacts = document.querySelector('.CoreContact')
+    const CoreContacts = document.querySelector('.CoreContact');
+    const WEBSITE = document.querySelector('.WEBSITE');
     const scrollPosition = window.scrollY;
 
     let opacity = 1 - scrollPosition / 200; 
     opacity = Math.max(opacity, 0);
-
+   
+    WEBSITE.style.opacity = opacity; 
     VideoButton.style.opacity = opacity;
     About53.style.opacity = opacity;
     Title.style.opacity = opacity;

@@ -5,6 +5,8 @@ body {
     background-color: black;
 }
 
+
+
 .Title {
     display: flex;
     justify-content: center;
@@ -14,6 +16,8 @@ body {
     min-height: 100vh; 
     font-family: 'Raleway', sans-serif;
 }
+
+
 
 .Text_1 {
     font-size: 3rem;
@@ -75,6 +79,7 @@ body {
     height: 30vh;              
     text-align: center;         
 }
+
 
 .Games {
     display: flex;
@@ -142,6 +147,8 @@ body {
     background-color: black; 
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.7);
 }
+
+
 
 .VideoContainer {
     display: flex;
@@ -219,11 +226,13 @@ body {
     color: white;
     text-align: center;
     font-size: 60px;
+    margin: 30%;
 }
 
 * {
     cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
 }
+
 
 @media only screen and (max-width: 640px) {
     .Text_1 {
@@ -256,6 +265,7 @@ body {
         height: auto;
         padding: 20px;
     }
+
 
     .Title {
         padding: 20px;
